@@ -1,0 +1,17 @@
+a:hover {
+    text-decoration: none;
+}
+.buttons_divider {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-bottom: solid #ccc 1px;
+}
+
+.sign_in_but {
+    border-radius: 45%;
+    margin-left: 5px
+}
+
+.bg-lightgray {
+    background-color:LightGray;
+}

@@ -1,0 +1,19 @@
+a:hover {
+    text-decoration: none;
+}
+.control-label {
+    margin-left: 2%;
+}
+
+hr {
+    margin: 0;
+    border-top: 1px solid #685dff;
+}
+
+.panel-body {
+    margin-top: -15px;
+}
+
+.btn-primary{
+    margin-top: 20px;
+}

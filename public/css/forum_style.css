@@ -1,0 +1,250 @@
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+.clr {
+    clear: both;
+}
+
+section {
+    /*background: #cce5ff;*/
+}
+
+.forum_container {
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 12px;
+    padding: 15px;
+    margin-bottom: 8px;
+    box-shadow: 2px 5px 10px #888888;
+}
+
+.py-2 {
+    background: lightgray;
+    color: #000;
+}
+
+.py-2 .title p {
+    color: black;
+    text-decoration: black;
+    font-weight: bold;
+}
+
+.Question_part .User_title .imguser {
+    height: 50px;
+    width: 50px;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid #cce5ff;
+}
+
+.Question_part .User_title h4 {
+    height: 50px;
+    width: 50px;
+    float: left;
+    text-align: center;
+}
+
+.Question_part .User_title .details {
+    height: 120px;
+    margin-top: 15px;
+    width: 70px;
+    border-bottom: 1px solid #cce5ff;
+
+}
+
+.Question_part .question {
+    border: solid #e0e0eb;
+    border-width: 0 1px 0 0;
+}
+
+.Question_part .title a h5 {
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    display: block;
+    transition: all linear .3s;
+
+}
+
+.Question_part .title a h5:hover {
+    color: #8585ad;
+    text-decoration: none;
+}
+
+.Question_part .title p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #a3a3c2;
+}
+
+.Question_part .extra {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+.Question_part .extra .shape1,
+.Question_part .extra .shape2,
+.Question_part .extra .shape3 {
+    /*margin-top: auto;*/
+    /*margin-bottom: auto;*/
+    display: block;
+    font-size: 17px;
+    color: #747073;
+
+}
+
+.Question_part .extra .shape1 {
+    border-bottom: 1px solid #f0f0f5;
+    margin-bottom: auto;
+    text-align: center;
+    margin-top: auto;
+}
+
+.Question_part .extra .shape2 {
+    border-bottom: 1px solid #f0f0f5;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.Question_part .extra .shape3 {
+    border-bottom: 1px solid #f0f0f5;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+/*.Question_part .extra .shape2 i {*/
+    /*text-align: center;*/
+    /*color: #b3b3cc;*/
+    /*margin-top: 20px;*/
+
+/*}*/
+
+/*.Question_part .extra .shape3 i {*/
+    /*color: #b3b3cc;*/
+    /*margin-top: 20px;*/
+    /*text-align: center;*/
+/*}*/
+
+/*cooment page*/
+.Question_part .like .liked {
+    float: left;
+    text-align: center;
+    width: 30%;
+    color: green;
+    transition: all linear .3s;
+    font-size: 24px;
+}
+
+.Question_part .like .liked i:hover {
+    color: green;
+    transition: all linear .3s;
+}
+
+.Question_part .like .liked i, .Question_part .like .disliked i {
+    padding: 15px;
+}
+
+.Question_part .like .disliked {
+    width: 30%;
+    text-align: center;
+    float: left;
+    color: red;
+    transition: all linear .3s;
+    font-size: 24px;
+}
+
+.Question_part .like .disliked i:hover {
+    color: red;
+    transition: all linear .3s;
+}
+
+.Question_part .like .reply {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 15px;
+    transition: all linear .3s;
+
+}
+
+.Question_part .like .reply i {
+    color: #b3b3cc;
+    transition: all linear .3s;
+    font-size: 24px;
+}
+
+.Question_part .like .reply i:hover {
+    color: #0ff;
+}
+
+.Question_part .post {
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+    color: #b3b3cc;
+}
+
+.Question_part .share {
+    float: left;
+}
+
+.Question_part .share i {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: auto;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    transition: all linear .3s;
+}
+
+.Question_part .share i:hover {
+    color: #3396ff;
+}
+
+/* reply css */
+.Question_part .title h3 {
+    font-size: 20px;
+    color: #9494b8;
+}
+
+/* box */
+.comment_box textarea {
+    width: 98%;
+    padding-left: 4%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: #e6f2ff;
+    border: none;
+    border-bottom: 1px solid #d1d1e0;
+}
+
+.form_btn {
+    height: 40px;
+    width: 100px;
+    margin-right: 92px;
+    line-height: 20px;
+    background: #99caff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all linear .2s;
+    color: #fff;
+}
+
+.form_btn:hover {
+    background: #0063cc;
+    transition: all linear .2s;
+}

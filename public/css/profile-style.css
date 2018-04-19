@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+.profile-image > img {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.profile-image {
+    padding: 30px;
+}
+
+#profile-sidebar {
+    height: calc(100% - 50px);
+    background-color: #0E0022;
+}
+
+.profile-name {
+    text-align: center;
+    text-decoration-style: solid;
+    color: #FFFFFF;
+    background-color: #2D016C;
+    height: 40px;
+    font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.settings-bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: aliceblue;
+    text-decoration-style: solid;
+
+}
+
+.settings-item {
+
+}
+
+.settings-bar .glyphicon {
+    margin-right: 1rem;
+    margin-left: 5rem
+}
+
+#top-row {
+    height: auto;
+    margin-top: -30px;
+    margin-bottom: -15px;
+}
+
+#upcoming-contest {
+    height: 135px;
+    width: 185px;
+    background-color: #2ECC71;
+    padding-top: 10px;
+    margin: 30px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#problem-solve {
+    height: 135px;
+    width: 185px;
+    background-color: #EF4836;
+    margin: 30px;
+    padding-top: 10px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#rank {
+    height: 135px;
+    width: 185px;
+    padding-top: 10px;
+    background-color: #1E8Bc3;
+    margin: 30px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.title-panel > p {
+    font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.body-panel .text-title {
+    font-size: 28px;
+    color: white;
+}
+
+.body-panel .text-body {
+    color: #fff;
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+.text-title-ps {
+    font-size: 45px;
+    color: white;
+}
+
+#blog-post-row {
+    border: #19B5FE solid 5px;
+    margin: 15px;
+}
+
+#forum-post-row {
+    border: #19B5FE solid 5px;
+    margin: 15px;
+}
+
+#code-post-row {
+    border: #19B5FE solid 5px;
+    margin: 15px;
+}
+
+.sidebar-height {
+    height: inherit;
+}
+
+/*hover for the nav bar profile*/
+#profile_item {
+    margin-top: 12px;
+}
+
+#profile_item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#profile-dropdown li a {
+    color: #fff;
+}
+
+#profile_item a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    text-underline-mode: none;
+}
+
+/* top row's columns center */
+/* centered columns styles */
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    /* reset the text-align */
+    text-align: left;
+    /* inline-block space fix */
+    margin-right: -4px;
+}
