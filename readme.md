@@ -9,6 +9,19 @@ This is a website for AUST programming group
 
 -> Basic knowledge in using laravel 5.5 (as this project uses laravel 5.5)
 
+## Get project ready to run on PC
+1. at first clone/copy all files to destination folder
+2. make a .env file at the root
+3. copy the .env.example file contains to newly created .env file
+4. open cmd and go to the directory location of the project
+5. ###### run (without quotation):
+        "php artisan key:generate"
+6. ###### then run (without quotation):
+        "composer install"
+    
+7. now the project is ready to use.
+
+
 ## Instruction for running with test data
 1. create a database user: "homestead"
 2. create a database named: "homestead"
